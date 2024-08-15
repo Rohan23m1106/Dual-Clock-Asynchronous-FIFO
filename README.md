@@ -4,7 +4,7 @@ FIFOs are often used to safely pass data from one clock domain to another asynch
 <img width="959" alt="Simulation" src="https://github.com/user-attachments/assets/690ceac9-5c41-4f1a-bc83-4ccdad2fab19">
 
 ***Conclusion**
-◦ Designed Asynchronous FIFO in Verilog, synthesised & verified the design in Xilinx Vivado.
+◦ Designed Asynchronous FIFO in Verilog, synthesised & verified the design inn ModelSim.
 ◦ Synchronization of FIFO pointers is accomplished using Gray Code to avoid multi-bit signal transitions.
 ◦ Implemented 2 Flip-Flop Synchronizer to avoid meta-stability issues in CDC
 
